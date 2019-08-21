@@ -1,5 +1,5 @@
-﻿# Resources and Session Tracking/Locking System
-
+﻿# System to Track/Lock Resources and Session
+ 
 ## Base Variant
 System supports tracking/locking of resources like *Files, Folders, Image Files, Commands, any/all kind of files stored in folders*. 
 The basic variant of the system features a folder locking system. The barebone library of python, OS was used to accompalish this:
