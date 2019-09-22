@@ -18,7 +18,7 @@ def removefile():
     s.starttls() 
 
 # Authentication 
-    s.login("mansi.shukla2017@vitstudent.ac.in", "kvkzk65213") 
+    s.login("mansi.shukla2017@vitstudent.ac.in","jailakshmi") 
     subject="File remove"
 # message to be sent 
     text = "Hi admin\n An existing file has been removed at time\n %s" %st

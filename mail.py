@@ -18,7 +18,7 @@ def un_mailfunc():
 	s.starttls() 
 
 # Authentication 
-	s.login("mansi.shukla2017@vitstudent.ac.in", "kvkzk65213") 
+	s.login("mansi.shukla2017@vitstudent.ac.in","jailakshmi") 
 
 # message to be sent 
 	ts = time.time()
@@ -45,3 +45,4 @@ def un_mailfunc():
 
 # terminating the session 
 	s.quit() 
+

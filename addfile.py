@@ -27,7 +27,7 @@ def addfile():
     s.starttls() 
 
 # Authentication 
-    s.login("mansi.shukla2017@vitstudent.ac.in", "kvkzk65213") 
+    s.login("mansi.shukla2017@vitstudent.ac.in","jailakshmi")  
     subject="File addition"
 # message to be sent 
     text = "Hi admin\n A new file has been added at time\n %s" %st

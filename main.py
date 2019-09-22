@@ -171,7 +171,7 @@ def lockFolder():
 	os.system('clear')
 	print(header + 'What folder would you like to lock? Please type a Directory!')
 	lockInput = input(color['TWITTER_BLUE'] + "(e.x. ~/Desktop/FOLDER_NAME)> " + color['DEFAULT'])
-	os.system("clear; mv {} .{}; clear".format(lockInput, lockInput))
+	os.system('clear;' + 'chflags hidden ' + lockInput + ';clear')
 	print('Folder Locked!')
 	theExit()
 

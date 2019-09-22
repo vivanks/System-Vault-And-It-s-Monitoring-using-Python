@@ -26,7 +26,7 @@ def login_mailfunc(uname):
 	s.starttls() 
 
 # Authentication 
-	s.login("mansi.shukla2017@vitstudent.ac.in", "kvkzk65213") 
+	s.login("mansi.shukla2017@vitstudent.ac.in","jailakshmi") 
 
 # message to be sent 
 	ts = time.time()
